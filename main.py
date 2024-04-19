@@ -1,4 +1,6 @@
 import playlist 
+import converter
+import deleter
 from pytube import YouTube
 import pandas as pd
 from pytube.exceptions import AgeRestrictedError
@@ -31,6 +33,9 @@ for i in new_videos:
         pass
 
 df.to_excel('videos_history.xlsx', index=False)
+
+converter.make_conversions()
+deleter.delete()
 
 print("Completed")
 
