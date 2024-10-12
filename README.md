@@ -1,6 +1,6 @@
 # yt-downloader
 
-Project for downloading songs from a specific Youtube playlist, the download is started every time whenever a song is added to playlist
+Project for downloading songs from a specific Youtube playlist, the download is started whenever a song is added to playlist
 
 ## Link to used tools:
 
